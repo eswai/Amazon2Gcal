@@ -1,0 +1,15 @@
+account: your_name@gmail.com
+password: your_password
+feed: http://www.google.com/calendar/feeds/something/private/full
+aws-key: your_amazon_web_service_key
+target:
+  - actor: Brad Pitt
+    category: DVD
+  - title: LOST
+    category: DVD
+  - artist: Lady GAGA
+    category: Music
+  - author: David Heinemeier Hansson
+    category: Books
+  - title: Ruby
+    category: Books
