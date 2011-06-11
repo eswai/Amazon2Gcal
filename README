@@ -1,0 +1,28 @@
+This script acts as follows;
+- search your favorite items in Amazon according to config file.
+- write when the items will be in store on your Google calendar
+
+1. You need Google account and Amazon web service account.
+
+2. Prepare YAML config file
+---------------------------------------------------------------
+account: your_name@gmail.com
+password: your_password
+feed: http://www.google.com/calendar/feeds/something/private/full
+aws-key: your_amazon_web_service_key
+target:
+  - actor: Brad Pitt
+    category: DVD
+  - title: LOST
+    category: DVD
+  - artist: Lady GAGA
+    category: Music
+  - author: David Heinemeier Hansson
+    category: Books
+  - title: Ruby
+    category: Books
+---------------------------------------------------------------
+
+3. Run script
+ruby1.9 amazon2gcal.rb your_config.yaml
+
